@@ -22,6 +22,7 @@ spec:
     metadata:
       labels: { app: $NAME }
       annotations: { kubectl.kubernetes.io/restartedAt: $(date) }
+        
     spec:
       containers:
       - image: nginx:1.7.9
