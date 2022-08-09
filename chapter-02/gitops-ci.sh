@@ -1,13 +1,13 @@
 export VERSION=$(git rev-parse HEAD | cut -c1-7)
-make build
-make test
+#make build-build
+#make test
 
-export NEW_IMAGE="gitopsbook/sample-app:${VERSION}"
+export NEW_IMAGE="gitopsbook:${VERSION}"
 docker build -t ${NEW_IMAGE} .
 docker push ${NEW_IMAGE}
 
-git clone http://github.com/gitopsbook/sample-app-deployment.git
-cd sample-app-deployment
+git clone http://github.com/rudiheydra/gitopsbook.git
+cd chapter-02
 
 kubectl patch \
   --local \

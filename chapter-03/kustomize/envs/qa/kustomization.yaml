@@ -8,5 +8,5 @@ patchesStrategicMerge:
 - debug.yaml                  #B
 
 images:                       #C
-- name: gitopsbook/sample-app
+- name: rudiheydra/gitopbook
   newTag: v0.2

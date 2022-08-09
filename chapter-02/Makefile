@@ -1,6 +1,6 @@
 # Image URL to use for building/pushing images
 TAG ?= latest
-IMG ?= gitopsbook/example-operator:${TAG}
+IMG ?= rudiheydra/gitopbook:${TAG}
 
 # Build the docker image
 docker-build:
@@ -9,3 +9,6 @@ docker-build:
 # Push the docker image
 docker-push:
 	docker push ${IMG}
+
+run:
+    sh gitops-ci.sh
