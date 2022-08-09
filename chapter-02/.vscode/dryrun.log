@@ -1,0 +1,5 @@
+make: Entering directory 'c:/Users/Owner/Desktop/Rudi/Devops/gitopsbook/chapter-02'
+make: Leaving directory 'c:/Users/Owner/Desktop/Rudi/Devops/gitopsbook/chapter-02'
+ 
+Makefile:14: *** missing separator.  Stop.
+

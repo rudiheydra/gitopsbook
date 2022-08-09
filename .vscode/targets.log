@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 08 12:05:42 2022
+# Make data base, printed on Tue Aug 09 11:44:29 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -37,7 +39,9 @@ ARGOCD_BINARY_NAME = argocd
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_22048_ESERWKERWSPBJGLJ
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19840_WQFXUWLSAGBECSTR
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -85,7 +89,7 @@ MAKEFILE_LIST :=
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 22048
+VSCODE_PID = 19840
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -115,7 +119,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Kubernetes\Minikube;;C:\minikube;C:\Program Files\nodejs\;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps;;C:\Users\Owner\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Owner\AppData\Roaming\npm
+PATH = C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Kubernetes\Minikube;;C:\minikube;C:\Program Files\nodejs\;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps;;C:\Users\Owner\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Owner\AppData\Roaming\npm;C:\Users\Owner\AppData\Local\GitHubCLI\bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -150,8 +154,6 @@ USERDOMAIN = DESKTOP-RCF0OT5
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := 
 # default
@@ -197,7 +199,7 @@ PROCESSOR_REVISION = 9e09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=92/1024=9%, Rehash=0, Collisions=7/116=6%
+# Load=93/1024=9%, Rehash=0, Collisions=8/117=7%
 
 # Pattern-specific Variable Values
 
@@ -205,7 +207,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/Owner/Desktop/Rudi/Devops/gitopsbook, mtime 1659778414): 15 files, no impossibilities.
+# . (key c:/Users/Owner/Desktop/Rudi/Devops/gitopsbook, mtime 1659930736): 15 files, no impossibilities.
 
 # 15 files, no impossibilities in 1 directories.
 
@@ -238,7 +240,8 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Fil 
+e does not exist.
 #  File has been updated.
 #  Failed to be updated.
 
@@ -270,6 +273,6 @@ GNUmakefile:
 # strcache performance: lookups = 25 / hit rate = 12%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/25=0%
-# Finished Make data base on Mon Aug 08 12:05:42 2022
+# Finished Make data base on Tue Aug 09 11:44:29 2022
 
  
